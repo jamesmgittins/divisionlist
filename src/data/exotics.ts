@@ -672,5 +672,38 @@ export const exotics : Item[] = [
     
     - End of mission reward
     
-    - Any raid boss on characters first clear of the week`,rarity:Rarity.exotic,brand:Brand.none}
+    - Any raid boss on characters first clear of the week`,rarity:Rarity.exotic,brand:Brand.none},{type:`Light Machine Gun`,name:`Bluescreen`,talent:`Talent: Disruptor Rounds
+
+    Shooting an enemy marks that enemy and adds a stack to the the agent up to a count of 50. Shooting a marked enemy refreshes the mark and adds stacks to the agent.
+    When you deploy a non-shield skill, remove all stacks on agent and all marked targets trigger an effect.
+    
+    1 - 10 Stacks - Pulse marked targets for 5 seconds
+    11 - 25 Stacks - Pulse and Disrupt marked targets for 5 seconds.
+    26 - 49 Stacks - Pulse, Disrupt, and Disorient marked targets for 5 seconds.
+    50 Stacks - Pulse, Disrupt, and Disorient marked targets and all hostiles within 10 meters of the marked targets for 5 seconds. This effect will trigger immediately if any marked enemy is killed.`,attributes:`Light Machine Gun Damage
+    DMG To Target Out Of Cover
+    Damage To Armor`,mods:`Optics: +10% Reload Speed
+    Magazine: +15% Weapon Handling
+    Underbarrel: +10% Stability
+    Muzzle: +10% Rate of Fire`,uniqueSource:`Season 9 level 85 reward
+    First completion of the final season 9 manhunt mission`,alternateSource:`Exotic caches
+    End of mission reward`,rarity:Rarity.exotic,brand:Brand.none}
+    ,{type:`Marksman Rifle`,name:`Dread Edict`,talent:`Talent: Full stop
+    
+    Shooting enemies builds stacks to a cap of 20.
+    Headshots grant 2 stacks.
+    Each stack grants 2% Weapon Damage and 5% Headshot Damage. On reload, clear all stacks and gain 5% of your max armor as temp armor for 10 seconds for each stack removed.
+    
+    Headshot kills with Dread Edict restore all bullets in the magazine. This does not count as a reload.`,attributes:`Marksman Rifle Damage
+    Headshot Damage
+    DMG To Target Out Of Cover`,mods:`Optics: 40% Headshot Damage
+    Underbarrel: 10% Stability
+    Magazine: 15% Weapon Handling
+    Muzzle: 10% Critical Hit Chance`,uniqueSource:`Season 9 level 55 reward`,alternateSource:`Exotic caches
+    End of mission reward`,rarity:Rarity.exotic,brand:Brand.none}
+    ,{type:`Mask`,name:`Catharsis`,talent:`Talent: Vicious Cycle
+    Taking damage builds stacks to a cap of 30. Each stack grants 1% Weapon Damage. Taking damage at max stacks triggers a purge, removing all stacks and Status Effects and then dropping a healing cloud which restores 5% of Max Armor for 10 seconds to all allies in the cloud.`,attributes:`Armor
+    Incoming Repairs
+    Armor Regeneration`,mods:`None`,uniqueSource:`Season 9 level 90 reward`,alternateSource:`Exotic caches
+    End of mission reward`,rarity:Rarity.exotic,brand:Brand.none}
 ];
