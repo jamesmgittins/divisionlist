@@ -706,4 +706,30 @@ export const exotics : Item[] = [
     Incoming Repairs
     Armor Regeneration`,mods:`None`,uniqueSource:`Season 9 level 90 reward`,alternateSource:`Exotic caches
     End of mission reward`,rarity:Rarity.exotic,brand:Brand.none}
+    ,{type:`Rifle`,name:`Doctor Home`,talent:`Talent: Doctor Home
+Shooting an enemy with Doctor Home applies a mark for 5s.
+
+If a marked target is killed it will drop a 15% Armor repair kit which applies to the whole party when picked up. The kit doesn’t give bonus armor. 
+`,attributes:`Rifle Damage
+10% Damage to target out of cover`,mods:`Optics: +10% Accuracy
+Magazine: +10% Reload Speed
+Muzzle: +10% stability
+Underbarrel: +10% Handling`,uniqueSource:`Season 10 reward`,alternateSource:`Exotic caches
+End of mission reward`,rarity:Rarity.exotic,brand:Brand.none}
+,{type:`Pistol`,name:`Busy Little Bee`,talent:`Talent: Busy Little Bee
+Each shot to a different target will give 1 stack – up to 10 max, with each stack giving 20% Weapon Damage increase. 
+Stacks will activate once the weapon is switched and will last for 10 seconds. Changing weapon again during the said 10 seconds will cancel the buff.`,attributes:`Pistol Damage
+10% Damage to target out of cover`,mods:`Optics: +25% Optimal Range
+Magazine: +10% Reload speed
+Muzzle: +10% Stability
+Underbarrel: +5% Critical Hit Chance`,uniqueSource:`Season 10 reward`,alternateSource:`Exotic caches
+End of mission reward`,rarity:Rarity.exotic,brand:Brand.none}
+,{type:`Gloves`,name:`Bloody Knuckles`,talent:`Talent: Over the top
+Damaging an enemy with a grenade or striking an enemy with a melee attack, activates Seeing Red. Seeing Red grants +25% weapon damage and +100% melee damage. Seeing Red lasts 20 seconds and has a 60 second cooldown. 
+
+While in cooldown, striking an enemy with a melee attack or hitting an enemy with the effect of a grenade will complete the cooldown instantly.
+`,attributes:`Weapon Damage
+Critical Hit Chance
+Critical Hit Damage`,mods:``,uniqueSource:`Season 10 reward`,alternateSource:`Exotic caches
+End of mission reward`,rarity:Rarity.exotic,brand:Brand.none}
 ];
